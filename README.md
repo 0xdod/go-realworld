@@ -24,7 +24,7 @@ You also need to have [migrate](https://github.com/golang-migrate/migrate) tool 
 - make sure [Go](https://golang.org/dl) is installed on your machine.
 - make sure to have the postgresql database installed locally or remote
 - set the .env file or env var as shown in the .env.example file
-- run the migrations in postgres/migrations or run `make run-migrate`
+- run the migrations in postgres/migrations or run `make run-migration`
 - fetch all dependencies using `go mod download`
 - run `make run` to start the server locally
  
