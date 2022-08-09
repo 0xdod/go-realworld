@@ -283,7 +283,7 @@ func updateUser(ctx context.Context, tx *sqlx.Tx, user *conduit.User, patch cond
 	}
 
 	if v := patch.Username; v != nil {
-		user.Image = *v
+		user.Username = *v
 	}
 
 	args := []interface{}{
